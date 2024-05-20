@@ -1,0 +1,59 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+    background-image: url('https://media.istockphoto.com/id/1339908748/vector/new-realistic-neon-sign-of-quiz-frame-logo-for-decoration-and-covering-on-the-dark-wall.jpg?s=612x612&w=0&k=20&c=Qn97UPTD2E-MXDC9khiDW9vQglFtjNCFvCtF0EkiDP8=');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+body h1{
+    color: rgb(221, 122, 122);
+    text-align: center;
+    margin-top: 200px;
+    font-size: 50px;
+    
+    
+    
+}
+
+.quiz-container {
+    text-align: center;
+   
+}
+.question-section h2{
+    color: rgb(134, 234, 234);
+}
+.options-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+}
+.options-container{
+    padding: 10px 20px;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    margin-bottom: 10px;
+    margin-top: 20px;
+    
+}
+.options-container button{
+    cursor: pointer;
+    width: 200px;
+    border-radius: 10px;
+}
+
+.options-container button:hover {
+    background-color: rgb(161, 223, 237);
+  }
+.btn-container {
+    margin-top: 20px;
+}
+
+button {
+    padding: 10px 20px;
+    margin: 5px;
+    cursor: pointer;
+} 
